@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+.advanceBtn {
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

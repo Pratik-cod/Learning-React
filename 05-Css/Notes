@@ -1,0 +1,38 @@
+***style folder using css***
+baically css mai ka hote normaly css madhe 
+jaise ki mi har bar css direct index css madhe lihat hoto 
+
+but har baar thodi chalte tar ata component wise lihala measn e styles folder banavala src madhe tya mude dogah chi css alg alg zali
+but te kale nanatr error ale ki file import nahi ahe proper
+
+improt file - import "../styles/Card" ha style na file la import kara lagte component madhe
+
+but ha madhe bhi ek motha probem majhe ki me ek don file madhe alg alg button banvalo but dogha chi pan css alg alg hoti but conflict hot hote har baar tya mude dogha chi pan css sarkhi wate mang
+
+ ***Css module ***
+
+css module yacha solution hota ata hai chalte kesa
+me pahile tar header nad card component madhe dono alg alg folder kese tya nantar card.jsx and card.css ek folder majeh speartae kella and jaise header cha pan aesa kela 
+
+but ata module css la alg writing rahte
+- card.module.css ha type na liha lagte
+
+mang me tyla import kela css la card .jsx madhe 
+ 
+ import Styles from'./Card.module.css'
+ ha type na styles manjhe ki variable type use karu saktoh
+
+ ata tumhala import kela var bhi chal nar nahi tar kaun 
+
+ ata classes la set kara cha ahe majhe
+
+ pahile apan h1 likhe la ek class ddet hoto ata te nahi karacha
+
+ direct css madhe .advancebtn me code lihala css madhe
+
+ ata tyla import kartoh jsx madhe h1 madhe kasa
+
+ <h1 className = {styles.advancebtn}>Newly</h1>
+ class name madhe lihala ahe tasa liha lagte teva file proper run hote
+
+ hia css and css mdule ahe

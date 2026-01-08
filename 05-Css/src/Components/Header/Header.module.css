@@ -1,0 +1,21 @@
+.newly{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: aqua;
+}
+.advanceBtn {
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.tag{
+    background-color: blue;
+    color: brown;
+}
