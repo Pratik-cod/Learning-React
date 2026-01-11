@@ -1,0 +1,17 @@
+.pad{
+    padding-top: 80px;
+padding-left: 85vh ;
+
+}
+.head{
+background-color: grey;
+width: 40vh;
+}
+body{
+    background-color: grey;
+}
+button{
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+}
