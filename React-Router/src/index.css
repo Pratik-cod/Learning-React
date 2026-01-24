@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #1a1a1a; /* dark gray for contrast */
+  height: 20px;
+}
+.nav .navit{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: white;
+}
+.nav .navit a {
+  color: white;
+  text-decoration: none; /* underline hata dega */
+}
+
+.nav .navit a:hover {
+  color: lightgray; /* hover effect ke liye */
+}
