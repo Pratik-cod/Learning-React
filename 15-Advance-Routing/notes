@@ -1,0 +1,36 @@
+//    <Routes>
+//         <Route path = "/home" element = {<Home />} />
+//         <Route path = "/about" element = {<About />} />
+//         <Route path = "/contact" element = {<Contact />} />
+//         <Route path = "*" element = {<NotFound />} />
+//         <Route path='/contact/men' element ={ <Men />} />
+//         <Route path='/contact/women' element ={ <Women />} /> 
+
+//       </Routes> 
+
+//its a normally routing like basic
+
+//ab nested routing
+
+// <Route path = "/contact" element = {<Contact />}>
+        
+//          <Route path='men' element ={ <Men />} />
+//         <Route path='women' element ={ <Women />} /> 
+//         <Route path='kids' element ={ <Kids />} /> 
+//         </Route>
+ // ab ye nested route hai and udhar aap link karoge udhar aapko outlet karke name likhan ahoga      
+
+
+ // useNavigate ek hook hai woh normally naviagtion karne ke liye like return button pe click kiya toh har baar direct ome pe aau
+
+//  const navigate = useNavigate() ha hook ahw
+ 
+//      function navigation(){
+//          navigate('/home')ithun navigate ke la ahe
+//      }
+
+//       <button 
+//       onClick={navigation}
+//       className='px-5 py-2 bg-green-900 rounded-md active:scale-95 '>
+//         Return the main page
+//         </button>
